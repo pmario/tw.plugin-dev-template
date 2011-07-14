@@ -1,0 +1,4 @@
+modifier: PMario
+
+./plugins/DummyPlugin.js
+./plugins/Edit_ExternalScriptsTiddler.js

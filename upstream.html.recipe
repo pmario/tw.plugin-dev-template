@@ -1,0 +1,3 @@
+recipe: ../../tiddlywiki/tiddlywiki.html.recipe
+recipe: upstream/split.recipe
+js: ../../tiddlywiki/deprecated/Http.js
