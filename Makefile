@@ -4,6 +4,7 @@
 # For now users the OSX specific "open" to run a test file. This
 # will need to change.
 #
+OPEN=`cat OPEN_COMMAND`
 
 clean:
 	rm *.html || true
@@ -11,10 +12,10 @@ clean:
 	rm *.js || true
 
 upstream: clean upstream.html
-	open upstream.html
+	$(OPEN) upstream.html
 
 test: clean tests.html
-	open tests.html
+	$(OPEN) tests.html
 	
 tests.html:
 	cook $(PWD)/tests.html.recipe tests.html
