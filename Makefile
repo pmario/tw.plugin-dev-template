@@ -4,6 +4,10 @@
 # For now users the OSX specific "open" to run a test file. This
 # will need to change.
 #
+# create a file OPEN_COMMAND and add:
+# gnome-open  .. if you use ubuntu gnome OR
+# open .. if you use OSX
+
 OPEN=`cat OPEN_COMMAND`
 
 clean:
