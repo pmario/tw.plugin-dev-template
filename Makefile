@@ -22,8 +22,8 @@ test: clean tests.html
 	$(OPEN) tests.html
 	
 tests.html:
-	cook $(PWD)/tests.html.recipe tests.html
+	cook $(PWD)/tests.html.recipe -d $(PWD) -o tests.html
 
 upstream.html: 
-	cook $(PWD)/upstream.html.recipe upstream.html
+	cook $(PWD)/upstream.html.recipe -d $(PWD) -o upstream.html
 
